@@ -4,7 +4,7 @@
   "description": "A simple TODO CRUD",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,12 @@
   "homepage": "https://github.com/Lubrisa/todo-list#readme",
   "dependencies": {
     "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "@types/jest": "^29.5.14",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
   }
 }
