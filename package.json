@@ -26,7 +26,8 @@
   },
   "homepage": "https://github.com/Lubrisa/todo-list#readme",
   "dependencies": {
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
     "@babel/core": "^7.26.9",
